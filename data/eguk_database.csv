@@ -1,0 +1,278 @@
+"""Year""","""Booktitle""","""Title""","""Number of authours""","""author #1""","""author #2""","""author #3""","""author #4""","""author #5""","""author #6""","""author #7""","""author #8""","""author #9""","""author #10""","""author #11"""
+2014,"""Computer Graphics and Visual Computing (CGVC)""","""Visual Analysis of Hurricane Data Using Joint Contour Net""",4,Z. Geng,D. Duke,H. Carr,A. Chattopadhyay
+2014,"""Computer Graphics and Visual Computing (CGVC)""","""Geological Orientation Measurements using an iPad: Method Comparison""",3,L. Hama,R. A. Ruddle,D. Paton
+2014,"""Computer Graphics and Visual Computing (CGVC)""","""Variations on Image Reconstruction:Weighted Back Projection and Fourier Expectation Maximization""",2,A. Ryan,B. Mora
+2014,"""Computer Graphics and Visual Computing (CGVC)""","""Comparative Visualization and Analysis of Time-Dependent, 2D Foam Simulation Data""",4,D. R. Lipsa,R. S. Laramee,S. Cox,I. T. Davies
+2014,"""Computer Graphics and Visual Computing (CGVC)""","""Modelling of Clouds from a Hemispherical Image""",6,T. Alldieck,D. H. Lundtoft,N. Montanari,I. Nikolov,I. G. Vlaykov,C. B. Madsen
+2014,"""Computer Graphics and Visual Computing (CGVC)""","""Gap-Sensitive Segmentation and Restoration of Digital Images""",5,A. Sobiecki,A. Jalba,D. Boda,A. Diaconeasa,A. Telea
+2014,"""Computer Graphics and Visual Computing (CGVC)""","""Fast and Simple Agglomerative LBVH Construction""",1,C. Apetrei
+2014,"""Computer Graphics and Visual Computing (CGVC)""","""A Study on Glyph-based Visualisation with Dense Visual Context""",5,S. Khan,K. J. Proctor,S. Walton,R. Bañares-Alcántara,M. Chen
+2015,"""Table of Contents and Preface""","""Frontmatter: Computer Graphics and Visual Computing (CGVC)""",2,R. Borgo,C. Turkay
+2015,"""Computer Graphics and Visual Computing (CGVC)""","""Multivariate Hybrid Visualisation of Ornithological Sensor Data""",3,R. C. Roberts,R. S. Laramee,M. W. Jones
+2015,"""Computer Graphics and Visual Computing (CGVC)""","""Explaining Neighborhood Preservation for Multidimensional Projections""",3,R. M. Martins,R. Minghim,A. C. Telea
+2015,"""Computer Graphics and Visual Computing (CGVC)""","""GKS-94 to SVG: Some Reflections on the Evolution of Standards for 2D Graphics""",2,D. A. Duce,F. Hopgood
+2015,"""Computer Graphics and Visual Computing (CGVC)""","""Tiled Projection Onto Deforming Screens""",6,H. Kim,C. Schinko,S. Havemann,I. Redi,A. Redi,D. W. Fellner
+2015,"""Computer Graphics and Visual Computing (CGVC)""","""Visibility-Weighted Saliency for Volume Visualization""",2,S. Luo,J. Dingliana
+2015,"""Computer Graphics and Visual Computing (CGVC)""","""Natural Phenomena as Metaphors for Visualization of Trend Data in Interactive Software Maps""",4,H. Würfel,M. Trapp,D. Limberger,J. Döllner
+2015,"""Computer Graphics and Visual Computing (CGVC)""","""Extending the Scaffold Hunter Visualization Toolkit with Interactive Heatmaps""",5,W. Sturm,T. Schäfer,T. Schreck,A. Holzinger,T. Ullrich
+2015,"""Computer Graphics and Visual Computing (CGVC)""","""Using Sketching to Control Heterogeneous Groups""",4,T. Allen,A. Parvanov,S. Knight,S. Maddock
+2016,"""Computer Graphics and Visual Computing (CGVC)""","""CGVC 2016: Frontmatter""",2,Cagatay Turkay,Tao Ruan Wan
+2016,"""Computer Graphics and Visual Computing (CGVC)""","""MLCut: Exploring Multi-Level Cuts in Dendrograms for Biological Data""",5,A. Vogogias,J. Kennedy,D. Archambault,V. A. Smith,H. Currant
+2016,"""Computer Graphics and Visual Computing (CGVC)""","""MolPathFinder: Interactive Multi-Dimensional Path Filtering of Molecular Dynamics Simulation Data""",3,N. Alharbi,R. S. Laramee,M. Chavent
+2016,"""Computer Graphics and Visual Computing (CGVC)""","""Towards Analytical Provenance Visualization for Criminal Intelligence Analysis""",5,J. Islam,C. Anslow,K. Xu,W. Wong,L. Zhang
+2016,"""Computer Graphics and Visual Computing (CGVC)""","""TimeSets for Uncertainty Visualisation""",5,S. Salisu,K. Xu,A. Wagstaff,M. Biggs,G. Phillips
+2016,"""Computer Graphics and Visual Computing (CGVC)""","""Collaborative Computational Projects - Visualisation Applications Survey""",3,M. J. Turner,R. Fowler,T. Morris
+2016,"""Computer Graphics and Visual Computing (CGVC)""","""Volumetric Spot Noise for Procedural 3D Shell Texture Synthesis""",5,N. Pavie,G. Gilet,J. Dischler,E. Galin,D. Ghazanfarpour
+2016,"""Computer Graphics and Visual Computing (CGVC)""","""Amplitude Modulated Line-Based Halftoning""",2,A. G. M. Ahmed,O. Deussen
+2016,"""Computer Graphics and Visual Computing (CGVC)""","""Improving and Optimising Visualisations of Full-waveform LiDAR Data""",5,M. Miltiadou,N. D. F. Campbell,M. Brown,D. Cosker,M. Grant
+2016,"""Computer Graphics and Visual Computing (CGVC)""","""Exploring Face Recognition under Complex Lighting Conditions with HDR Imaging""",4,E. O. Ige,K. Debattista,R. Muhkerjee,A. Chalmers
+2016,"""Computer Graphics and Visual Computing (CGVC)""","""Selective BRDFs for High Fidelity Rendering""",6,T. Bradley,K. Debattista,T. Bashford-Rogers,C. Harvey,S. Doukakis,A. Chalmers
+2016,"""Computer Graphics and Visual Computing (CGVC)""","""Topological Visualisation Techniques for the Understanding of Lattice Quantum Chromodynamics (LQCD) Simulations""",3,D. P. Thomas,R. Borgo,S. Hands
+2016,"""Computer Graphics and Visual Computing (CGVC)""","""Hybrid Data-Parallel Contour Tree Computation""",4,H. Carr,C. Sewell,L. Lo,J. Ahrens
+2016,"""Computer Graphics and Visual Computing (CGVC)""","""Generating Watertight Isosurfaces from 3D Seismic Data""",3,M. S. Khan,H. Carr,D. Angus
+2016,"""Computer Graphics and Visual Computing (CGVC)""","""Using Semi-automatic 3D Scene Reconstruction to Create a Digital Medieval Charnel Chapel""",7,W. Shui,S. Maddock,P. Heywood,E. Craig-Atkins,J. Crangle,D. Hadley,R. Scott
+2016,"""Computer Graphics and Visual Computing (CGVC)""","""Tactile Mesh Saliency: A Brief Synopsis""",2,M. Lau,K. Dev
+2016,"""Computer Graphics and Visual Computing (CGVC)""","""Interactive GPU-based Image Deformation for Mobile Devices""",3,J. O. Vollmer,M. Trapp,J. Döllner
+2016,"""Computer Graphics and Visual Computing (CGVC)""","""PED: Pedestrian Environment Designer""",4,J. McIlveen,S. Maddock,P. Heywood,P. Richmond
+2016,"""Computer Graphics and Visual Computing (CGVC)""","""A Calibrated Olfactory Display for High Fidelity Virtual Environments""",8,A. Dhokia,E. Doukakis,A. Asadipour,C. Harvey,T. Bashford-Rogers,K. Debattista,B. Waterfield,A. Chalmers
+2016,"""Computer Graphics and Visual Computing (CGVC)""","""Fire and Gas Detection Mapping using Volumetric Rendering""",6,C. Cotterill,T. Davison,S. J. O'Connor,D. Orr,F. Charles,W. Tang
+2017,"""Computer Graphics and Visual Computing (CGVC""","""Computer Graphics and Visual Computing (CGVC) 2017: Frontmatter""",2,T. R. Wan,F. Vidal
+2017,"""Computer Graphics and Visual Computing (CGVC)""","""Time-oriented Cartographic Treemaps for Visualization of Public Healthcare Data""",7,C. Tong,L. McNabb,R. S. Laramee,J. Lyons,A. Walters,D. Berridge,D. Thayer
+2017,"""Computer Graphics and Visual Computing (CGVC)""","""12DoF Interaction for Scientific Visualisation""",3,M. J. Turner,T. Morris,M. Sandoval
+2017,"""Computer Graphics and Visual Computing (CGVC)""","""Human-in-the-Loop Visualisation Architecture for Monitoring Remote Compute""",6,M. J. Turner,S. Nagella,R. Fowler,R. J. Allan,E. Pasca,E. Yang
+2017,"""Computer Graphics and Visual Computing (CGVC)""","""Cartographic Treemaps for Visualization of Public Healthcare Data""",5,C. Tong,R. Roberts,R. S. Laramee,D. Berridge,D. Thayer
+2017,"""Computer Graphics and Visual Computing (CGVC)""","""Real-Time Rendering of Molecular Dynamics Simulation Data: A Tutorial""",3,N. Alharbi,M. Chavent,R. S. Laramee
+2017,"""Computer Graphics and Visual Computing (CGVC)""","""Efficient Remote Rendering Using Equirectangular Projection""",3,J. McNamee,K. Debattista,A. Chalmers
+2017,"""Computer Graphics and Visual Computing (CGVC)""","""gVirtualXRay: Virtual X-Ray Imaging Library on GPU""",5,A. Sujar,A. Meuleman,P. Villard,M. García,F. P. Vidal
+2017,"""Computer Graphics and Visual Computing (CGVC)""","""Data Painter: A Tool for Colormap Interaction""",3,O. H. Nagoor,R. Borgo,M. W. Jones
+2017,"""Computer Graphics and Visual Computing (CGVC)""","""Colored AA Bitmaps""",2,A. G. M. Ahmed,O. Deussen
+2017,"""Computer Graphics and Visual Computing (CGVC)""","""Sketching for Real-time Control of Crowd Simulations""",2,L. R. M. Gonzalez,S. Maddock
+2017,"""Computer Graphics and Visual Computing (CGVC)""","""A User Study on Quantisation Thresholds of Triangle Meshes""",3,A. Almutairi,T. Saarela,I. Ivrissimtzis
+2017,"""Computer Graphics and Visual Computing (CGVC)""","""Towards Real-Time Animation Optimisation in VR""",3,G. I. Henshall,W. J. Teahan,L. a. Cenydd
+2017,"""Computer Graphics and Visual Computing (CGVC)""","""Capacity Constrained Voronoi Tessellation Revisited""",2,A. G. M. Ahmed,O. Deussen
+2005,"""EG UK Theory and Practice of Computer Graphics""","""Keyframing Particles of Physically Based Systems""",2,B. M. Dingle,J. Keyser
+2005,"""EG UK Theory and Practice of Computer Graphics""","""Real-Time Animation of Particles and Seaweeds in Underwater Scenes""",4,Y. Coulais,D. Ghazanfarpour,O. Terraz,S. Thon
+2005,"""EG UK Theory and Practice of Computer Graphics""","""Implementing an Improved Stereoscopic Camera Model""",2,B. Froner,N. Holliman
+2005,"""EG UK Theory and Practice of Computer Graphics""","""A Psychologically-Based Simulation of Human Behaviour""",2,S. J. Rymill,N. A. Dodgson
+2005,"""EG UK Theory and Practice of Computer Graphics""","""An Efficient Caching Technique for Rendering Translucent Materials""",3,S. Keng,W. Lee,J. Chuang
+2005,"""EG UK Theory and Practice of Computer Graphics""","""Implementing FastMap on the GPU: Considerations on General-Purpose Computation on Graphics Hardware""",2,G. Reina,"T.Ertl,"
+2005,"""EG UK Theory and Practice of Computer Graphics""","""Selective Parallel Rendering for High-Fidelity Graphics""",4,K. Debattista,V. Sundstedt,F. Pereira,A. Chalmers
+2005,"""EG UK Theory and Practice of Computer Graphics""","""Virtual Sculpting Using Implicit Surfaces with Scattered Data Interpolation""",4,K. Zhang,R. A. Noble,R. J. McDermott,A. Wilson
+2005,"""EG UK Theory and Practice of Computer Graphics""","""Integrating Abstract and Physical Molecular Model Interaction""",3,D. Thorne,S. Pettifer,T. Attwood
+2005,"""EG UK Theory and Practice of Computer Graphics""","""Perceptually-Oriented Interest Management In Large-Scale Networked Virtual Environments""",2,I. Dunwell,J. C. Whelan
+2005,"""EG UK Theory and Practice of Computer Graphics""","""Perceptual Level of Detail for Efficient Ray Tracing of Complex Scenes""",2,X. Yang,A. Chalmers
+2005,"""EG UK Theory and Practice of Computer Graphics""","""Cost Prediction Maps for Global Illumination""",3,R. Gillibrand,K. Debattista,A. Chalmers
+2005,"""EG UK Theory and Practice of Computer Graphics""","""Towards Realism in Facial Image Prototyping: Results of a Wavelet MRF Method""",3,B. Tiddeman,M. Stirrat,D. Perrett
+2005,"""EG UK Theory and Practice of Computer Graphics""","""Perlin Noise and 2D Second-Order Tensor Field Visualization""",4,J. Liu,J. Perrin,M. Turner,W. T. Hewitt
+2005,"""EG UK Theory and Practice of Computer Graphics""","""Simulating the Cumulative Effects of Multiple Impacts using 'Fracture Maps'""",1,T. Clifton
+2005,"""EG UK Theory and Practice of Computer Graphics""","""Arachnid Simulation: Scaling Arbitrary Surfaces""",2,L. a. Cenydd,W. Teahan
+2005,"""EG UK Theory and Practice of Computer Graphics""","""Visualization of Smoothed Particle Hydrodynamics for Astrophysics""",3,R. Walker,P. Kenny,J. Miao
+2005,"""EG UK Theory and Practice of Computer Graphics""","""Fast Simulation of Facial Tissue Deformations Using Mass-Spring Chain Algorithm""",2,A. Duysak,J. J. Zhang
+2005,"""EG UK Theory and Practice of Computer Graphics""","""Simulation and Visualization of a large scale Real Time Multi-Robot system""",3,G. Al-Hudhud,A. Ayesh,H. Istance
+2005,"""EG UK Theory and Practice of Computer Graphics""","""The Data Surface Interaction Paradigm""",2,R. Lindell,T. Larsson
+2005,"""EG UK Theory and Practice of Computer Graphics""","""Augmented Reality Scenarios for Guitar Learning""",1,F. Liarokapis
+2005,"""EG UK Theory and Practice of Computer Graphics""","""skML a Markup Language for Distributed Collaborative Visualization""",2,D. A. Duce,M. Sagar
+2005,"""EG UK Theory and Practice of Computer Graphics""","""Click and Brush: A Novel Way of Finding Correlations and Relationships in Visualizations""",2,M. A. E. Wright,J. C. Roberts
+2005,"""EG UK Theory and Practice of Computer Graphics""","""Freehand 3D Curve Recognition and Oversketching""",3,L. Han,R. D. Amicis,G. Conti
+2005,"""EG UK Theory and Practice of Computer Graphics""","""Real-time Simulation of Crowds Using Voronoi Diagrams""",2,J. Champagne,W. Tang
+2005,"""EG UK Theory and Practice of Computer Graphics""","""VRECKO: Virtual Reality Framework""",5,J. Flasar,L. Pokluda,R. O lej ek,P. Kolcárek,J. Sochor
+2005,"""EG UK Theory and Practice of Computer Graphics""","""Ubiquitous Virtual Reality: Accessing Shared Virtual Environments through Videoconferencing Technology""",3,T. Pfeiffer,M. Weber,B. Jung
+2006,"""Theory and Practice of Computer Graphics 2006""","""Physically Based Simulation and Visualization of Fire in Real-Time using the GPU""",3,S. Rødal,G. Storli,O. E. Gundersen
+2006,"""Theory and Practice of Computer Graphics 2006""","""Computing Static Electricity on Human Hair""",2,G. Sobottka,A. Weber
+2006,"""Theory and Practice of Computer Graphics 2006""","""HyperStreamball Visualization for Symmetric Second Order Tensor Fields""",4,J. Liu,M. Turner,W. T. Hewitt,J. S. Perrin
+2006,"""Theory and Practice of Computer Graphics 2006""","""Smarticles for Sampling and Rendering Implicit Models""",3,P. Jepp,B. Wyvill,M. C. Sousa
+2006,"""Theory and Practice of Computer Graphics 2006""","""GraSSML: Smart Schematic Diagrams, XML and Accessibility""",2,Z. B. Fredj,D. A. Duce
+2006,"""Theory and Practice of Computer Graphics 2006""","""Polynomial Approximation of Blinn-Phong Model""",3,A. Öztürk,A. Bilgili,M. Kurt
+2006,"""Theory and Practice of Computer Graphics 2006""","""Perception-based Lighting Design""",2,H. N. Ha,P. Olivier
+2006,"""Theory and Practice of Computer Graphics 2006""","""ATIP: A Tool for 3D Navigation inside a Single Image with Automatic Camera Calibration""",3,K. Boulanger,K. Bouatouch,S. Pattanaik
+2006,"""Theory and Practice of Computer Graphics 2006""","""Fast Rendering of Complex Dynamic Scenes""",2,V. Kovalcík,J. Sochor
+2006,"""Theory and Practice of Computer Graphics 2006""","""State of the Art Non-Photorealistic Rendering (NPR) Techniques""",2,R. Sayeed,T. Howard
+2006,"""Theory and Practice of Computer Graphics 2006""","""Augmented Reality with Multilayer Occlusion""",2,Y. Feng,Y. Chen
+2006,"""Theory and Practice of Computer Graphics 2006""","""Hand Motion Capture and Tracking in 3D Animation""",3,J. Condell,G. Moore,J. Moore
+2006,"""Theory and Practice of Computer Graphics 2006""","""Real-Time Modelling of the Action of Wind on Liquid Surfaces""",2,A. Bristol,T. Varsamidis
+2006,"""Theory and Practice of Computer Graphics 2006""","""Collision Detection for Deformable Objects using Octrees""",3,F. A. Madera,A. M. Day,S. D. Laycock
+2006,"""Theory and Practice of Computer Graphics 2006""","""Automatic Stroke Extraction and Stroke Ordering Based on TrueType Font""",4,S. O. Koo,H. G. Jang,K. H. Won,S. K. Jung
+2006,"""Theory and Practice of Computer Graphics 2006""","""Perceived Rendering Thresholds for High-Fidelity Graphics on Small Screen Devices""",4,M. Aranha,K. Debattista,A. Chalmers,S. Hill
+2006,"""Theory and Practice of Computer Graphics 2006""","""Out of core Polyhedral Union and its Application to Interactive Shadow Rendering""",3,J. Fedorkiw,C. Smith,S. Ghali
+2006,"""Theory and Practice of Computer Graphics 2006""","""Structured Image Techniques for Efficient High-Fidelity Graphics""",3,X. Yang,K. Debattista,A. Chalmers
+2006,"""Theory and Practice of Computer Graphics 2006""","""Curvature-Based Segmentation for Sketch Understanding""",3,W. Zheng,Z. Liu,Z. Sun
+2006,"""Theory and Practice of Computer Graphics 2006""","""A Mixed Reality Anatomy Teaching Tool""",3,R. G. Thomas,N. W. John,I. S. Lim
+2006,"""Theory and Practice of Computer Graphics 2006""","""An Interactive Multiscale Framework for Enhancement and Visualization of 2D and 3D Image Data""",3,A. D. Graham,M. J. Turner,T. Hewitt
+2006,"""Theory and Practice of Computer Graphics 2006""","""Visualisation of DNA - Does the Soul Have a Picture?""",2,M. Middleton,Y. Yue
+2006,"""Theory and Practice of Computer Graphics 2006""","""Visual Analysis of Packing Process for 3D Container""",3,Y. Yue,M. Middleton,J. Liu
+2006,"""Theory and Practice of Computer Graphics 2006""","""Flexible Interaction with Large Point-Based Datasets""",3,A. Rosiuta,G. Reina,T. Ertl
+2006,"""Theory and Practice of Computer Graphics 2006""","""Evolving Body Kinematics for Virtual Characters""",3,C. Gatzoulis,W. Tang,W. J. Stoddart
+2006,"""Theory and Practice of Computer Graphics 2006""","""Expressive and Dynamic Deformation of Animated Computer-Generated Characters""",2,P. Noble,W. Tang
+2007,"""Theory and Practice of Computer Graphics""","""Real-time Fluid Simulation Coupled with Cloth""",3,T. Harada,S. Koshizuka,Y. Kawaguchi
+2007,"""Theory and Practice of Computer Graphics""","""The Dynamic Animation of Ambulatory Arthropods""",2,L. a. Cenydd,W. Teahan
+2007,"""Theory and Practice of Computer Graphics""","""GPU-Based Wind Animation of Trees""",1,J. Skjermo
+2007,"""Theory and Practice of Computer Graphics""","""MTCut: GPU-based Marching Tetra Cuts""",3,E. Monclus,I. Navazo,P. Vazquez
+2007,"""Theory and Practice of Computer Graphics""","""Stability Analysis of Filtered Mass-Spring Systems""",4,A. Ahmad,S. Adly,O. Terraz,D. Ghazanfarpour
+2007,"""Theory and Practice of Computer Graphics""","""A Distance Hierarchy to Detect Collisions Between Deformable Objects""",3,F. A. Madera,A. M. Day,S. D. Laycock
+2007,"""Theory and Practice of Computer Graphics""","""Perception-Based Lighting-by-Example""",2,H. N. Ha,P. Olivier
+2007,"""Theory and Practice of Computer Graphics""","""Simulating Film Grain using the Noise-Power Spectrum""",2,I. Stephenson,A. Saunders
+2007,"""Theory and Practice of Computer Graphics""","""Scanline Edge-flag Algorithm for Antialiasing""",1,K. Kallio
+2007,"""Theory and Practice of Computer Graphics""","""Advantages of allowing Hexagonal Pixels to be used as a Boundary Description Format""",1,M. J. Turner
+2007,"""Theory and Practice of Computer Graphics""","""Speeding Up Isosurfacing: The Matryoshka Algorithm""",3,S. Lopes,A. Lopes,M. P. d. Santos
+2007,"""Theory and Practice of Computer Graphics""","""An Immersive Granular Material Visualization System with Haptic Feedback""",3,E. Dorjgotov,B. Benes,K. Madhavan
+2007,"""Theory and Practice of Computer Graphics""","""Bifocal Radial Visualization of Intranet Search Results using Image Caching""",2,A. J. Zschimmer,J. C. Roberts
+2007,"""Theory and Practice of Computer Graphics""","""A Statistically-Assisted Sketch-Based Interface for Creating Arbitrary 3-dimensional Faces""",2,O. Gunnarsson,S. Maddock
+2007,"""Theory and Practice of Computer Graphics""","""Delivering Effective and Usable Interactive 3D Visualization on Lightweight Mobile Devices""",2,I. R. Holmes,R. S. Kalawsky
+2007,"""Theory and Practice of Computer Graphics""","""A Novel Control Mechanism for Distributed Stream Rendering""",2,J. T. O'Brien,R. S. Kalawsky
+2007,"""Theory and Practice of Computer Graphics""","""Adaptive Infrastructure for Visual Computing""",11,K. W. Brodlie,J. Brooke,M. Chen,D. Chisnall,C. J. Hughes,N. W. John,M. W. Jones,M. Riding,N. Roard,M. Turner,J. D. Wood
+2007,"""Theory and Practice of Computer Graphics""","""Viewing 0.3Tb Heart Simulation Data At Your Desk""",5,I. J. Grimstead,S. Kharche,H. Zhang,N. J. Avis,D. W. Walker
+2007,"""Theory and Practice of Computer Graphics""","""Seamless Mesh Stitching Using Curve Approximation""",3,L. Gobeawan,S. Xu,S. J. Turner
+2007,"""Theory and Practice of Computer Graphics""","""Towards Individualized Ageing Functions for Human Face Images""",2,D. W. Hunter,B. P. Tiddeman
+2007,"""Theory and Practice of Computer Graphics""","""A Flexible Approach to High Performance Visualization Enabled Augmented Reality""",2,C. J. Hughes,N. W. John
+2007,"""Theory and Practice of Computer Graphics""","""Data Driven Graphical Applications: A Fluid Approach""",3,A. Jones,C. Mantle,D. Cornford
+2007,"""Theory and Practice of Computer Graphics""","""A Case-Study of Inconsistent Surface Reconstruction in Recent Literature Resulting from Octree Rotation-Variance""",2,D. M. Hughes,I. S. Lim
+2007,"""Theory and Practice of Computer Graphics""","""Interval-Based Motion Blending for Hand Grasping""",2,M. Brisbin,B. Benes
+2007,"""Theory and Practice of Computer Graphics""","""Visualization Notations, Models and Taxonomies""",2,K. Brodlie,N. M. Noor
+2007,"""Theory and Practice of Computer Graphics""","""Level of Detail for Physically Based Fire""",2,O. E. Gundersen,L. Tangvald
+2007,"""Theory and Practice of Computer Graphics""","""Streaming and Data Enrichment""",3,M. J. McDerby,W. T. Hewitt,M. J. Turner
+2007,"""Theory and Practice of Computer Graphics""","""A 3D Visualisation Environment Modelling the Evolution of North-West Europe since the Last Glacial Maximum""",3,A. Wainwright,T. Varsamidis,J. Scourse
+2007,"""Theory and Practice of Computer Graphics""","""Using 3D Visualisation in the Repair of Intra-articular Fractures""",5,A. F. Wilson,P. B. Musgrove,K. A. Buckley,G. Pearce,J. Geoghegan
+2007,"""Theory and Practice of Computer Graphics""","""Steering Chemistry in the Right Direction!""",1,R. A. Davies
+2007,"""Theory and Practice of Computer Graphics""","""Anatomy Education using Rapid Prototyping""",3,R. G. Thomas,N. W. John,I. S. Lim
+2008,"""Theory and Practice of Computer Graphics""","""Interactive Out-of-Core Exploration of Large Volume Datasets in VTK-Based Visualisation Systems""",8,A. Agrawal,J. Kohout,G. J. Clapworthy,N. J. B. McFarlane,F. Dong,M. Viceconti,F. Taddei,D. Testi
+2008,"""Theory and Practice of Computer Graphics""","""Efficient Representation of Layered Depth Images for Real-time Volumetric Tests""",2,M. Trapp,J. Döllner
+2008,"""Theory and Practice of Computer Graphics""","""A Physical Model for the Polarized Scattering of Light""",3,D. Brayford,M. Turner,W. T. Hewitt
+2008,"""Theory and Practice of Computer Graphics""","""Light Field Rendering for Games""",3,S. Todt,C. Rezk-Salama,A. Kolb
+2008,"""Theory and Practice of Computer Graphics""","""Interactive Grid Based Binning for Information Visualization""",3,S. M. Longshaw,M. J. Turner,W. T. Hewitt
+2008,"""Theory and Practice of Computer Graphics""","""Segmenting the External Surface of a Human Skull in MR Data""",2,M. Salas,S. Maddock
+2008,"""Theory and Practice of Computer Graphics""","""Image Abstraction by Structure Adaptive Filtering""",2,J. E. Kyprianidis,J. Döllner
+2008,"""Theory and Practice of Computer Graphics""","""Contouring with Uncertainty""",2,R. S. A. Osorio,K. W. Brodlie
+2008,"""Theory and Practice of Computer Graphics""","""A Fast Algorithm for Painterly Rendering on Mobile Devices""",2,R. Mukundan,C. Han
+2008,"""Theory and Practice of Computer Graphics""","""A New Method for Interacting with Multi-Window Applications on Large, High Resolution Displays""",2,C. Rooney,R. A. Ruddle
+2008,"""Theory and Practice of Computer Graphics""","""Self-Organising Maps for Implicit Surface Reconstruction""",3,M. Yoon,I. Ivrissimtzis,S. Lee
+2008,"""Theory and Practice of Computer Graphics""","""Localised Topology Correction for Hypertextured Terrains""",2,M. N. Gamito,S. C. Maddock
+2008,"""Theory and Practice of Computer Graphics""","""A Lemon is not a Monstar: Visualization of Singularities of Symmetric Second Rank Tensor Fields in the Plane""",5,J. Liu,W. T. Hewitt,W. R. B. Lionheart,J. Montaldi,M. Turner
+2008,"""Theory and Practice of Computer Graphics""","""A Benchmarking Framework for Static Collision Detection""",2,E. D. Diktas,A. V. Sahiner
+2008,"""Theory and Practice of Computer Graphics""","""GPU-based Visualisation of Protein Secondary Structure""",3,M. Krone,K. Bidmon,T. Ertl
+2008,"""Theory and Practice of Computer Graphics""","""Efficient Path Matching Motion Generation Algorithm for Multi Agent Environment""",4,N. Lau,C. Chow,P. Lee,B. Iu
+2008,"""Theory and Practice of Computer Graphics""","""Modes of Virtual Environments Integrated within Collaborative Environments""",3,M. J. McDerby,M. J. Turner,G. W. Leaver
+2008,"""Theory and Practice of Computer Graphics""","""Time-varying Image Data Visualization Framework for Application in Cardiac Catheterization Procedures""",8,Y. L. Ma,K. S. Rhode,A. P. King,G. Gao,P. Chinchapatnam,T. Schaeffter,R. Razavi,K. Saetzler
+2008,"""Theory and Practice of Computer Graphics""","""Towards Image Rendering using models of Image Manifolds""",2,A. Woodland,F. Labrosse
+2008,"""Theory and Practice of Computer Graphics""","""Space-free Shader Programming: Automatic Space Inference and Optimization for Real-time Shaders""",2,C. Lejdfors,L. Ohlsson
+2008,"""Theory and Practice of Computer Graphics""","""Time Handling in Inverse Daylighting for CAAD""",3,V. Tourre,J. Martin,G. Hégron
+2008,"""Theory and Practice of Computer Graphics""","""A Haptic Rendering Algorithm for Drilling into Volume Data""",2,Y. Liu,S. D. Laycock
+2008,"""Theory and Practice of Computer Graphics""","""Grammatical Evolution for Gait Retargeting""",3,J. E. Murphy,H. Carr,M. O'Neill
+2008,"""Theory and Practice of Computer Graphics""","""Generation and Tessellation of Tree Stems""",1,J. Skjermo
+2008,"""Theory and Practice of Computer Graphics""","""Game-Based Training in an Interactive Environment by means of OpenCrimeScene""",3,A. Brennecke,S. Schlechtweg,H. Schumann
+2009,"""Theory and Practice of Computer Graphics""","""An Improved Precise Multi-contact Haptic Visualization""",3,J. Flasar,V. Kovalcík,J. Sochor
+2009,"""Theory and Practice of Computer Graphics""","""A Haptic System for Drilling into Volume Data with Polygonal Tools""",2,Y. Liu,S. D. Laycock
+2009,"""Theory and Practice of Computer Graphics""","""Multimodal Visualization with Interactive Closeups""",5,T. Ropinski,I. Viola,M. Biermann,H. Hauser,K. Hinrichs
+2009,"""Theory and Practice of Computer Graphics""","""Simulation of X-ray Attenuation on the GPU""",5,F. P. Vidal,M. Garnier,N. Freud,J. M. Létang,N. W. John
+2009,"""Theory and Practice of Computer Graphics""","""Accelerating Raycasting Utilizing Volume Segmentation of Industrial CT Data""",2,S. Frey,T. Ertl
+2009,"""Theory and Practice of Computer Graphics""","""Texture Classification using Fractal Geometry for the Diagnosis of Skin Cancers""",2,J. M. Blackledge,D. A. Dubovitskiy
+2009,"""Theory and Practice of Computer Graphics""","""Interactive Relighting for Stage Use""",1,I. Stephenson
+2009,"""Theory and Practice of Computer Graphics""","""Distance Based Feature Detection on 3D Point Sets""",2,A. Ramli,I. Ivrissimtzis
+2009,"""Theory and Practice of Computer Graphics""","""Object Interaction Using Tabulated Spheres Subsets""",3,A. A. N. Newball,G. Wyvill,B. McCane
+2009,"""Theory and Practice of Computer Graphics""","""Automatically Generating Virtual Humans using Evolutionary Algorithms""",2,A. Albin-Clark,T. Howard
+2009,"""Theory and Practice of Computer Graphics""","""Visual Representation of Multiple Associations in Data using Constrained Graph Layout""",2,W. Xu,J. Sreevalsan-Nair
+2009,"""Theory and Practice of Computer Graphics""","""An Adaptive Sampling Approach to Incompressible Particle-Based Fluid""",3,W. Hong,D. H. House,J. Keyser
+2009,"""Theory and Practice of Computer Graphics""","""An Edge-based Approach to Adaptively Refining a Mesh for Cloth Deformation""",3,T. J. R. Simnett,S. D. Laycock,A. M. Day
+2009,"""Theory and Practice of Computer Graphics""","""A Framework for Physically Based Forest Fire Animation""",2,O. E. Gundersen,J. Skjermo
+2009,"""Theory and Practice of Computer Graphics""","""An Aliasing Theory of Shadow Mapping""",3,F. Zhang,C. Zhao,H. Sun
+2009,"""Theory and Practice of Computer Graphics""","""Design and Evaluation of a Hardware Accelerated Ray Tracing Data Structure""",2,M. Steffen,J. Zambreno
+2009,"""Theory and Practice of Computer Graphics""","""Hardware Accelerated Shaders Using FPGAs""",2,L. Goddard,I. Stephenson
+2009,"""Theory and Practice of Computer Graphics""","""Facial Expression Transferring with a Deformable Model""",4,G. Xiang,X. Ju,P. O. Holt,L. Shang
+2009,"""Theory and Practice of Computer Graphics""","""Fast and Accurate Finite Element Method for Deformation Animations""",4,W. Tang,T. R. Wan,C. Niquin,A. Schildknecht
+2009,"""Theory and Practice of Computer Graphics""","""Markerless Visual Human Movement Tracking for HCI: What Frequency?""",2,F. Kahlesz,R. Klein
+2009,"""Theory and Practice of Computer Graphics""","""Touching The Invisible - Molecular Haptics""",3,R. A. Davies,J. S. Maskery,N. W. John
+2009,"""Theory and Practice of Computer Graphics""","""Developing an Application to Provide Interactive Threedimensional Visualisation of Bone Fractures""",5,A. F. Wilson,P. B. Musgrove,K. A. Buckley,G. Pearce,J. Geoghegan
+2009,"""Theory and Practice of Computer Graphics""","""Higher Dimensional Vector Field Visualization: A Survey""",2,Z. Peng,R. S. Laramee
+2009,"""Theory and Practice of Computer Graphics""","""Towards Object Recognition using HDR Video, Stereoscopic Depth Information and SIFT""",5,M. May,T. Morris,K. Markham,W. J. Crowther,M. J. Turner
+2009,"""Theory and Practice of Computer Graphics""","""Near-correct Ocular Accommodation Responses to a 3d Display, Using Multiple Image Planes and Depth Filtering""",2,K. J. MacKenzie,S. J. Watt
+2009,"""Theory and Practice of Computer Graphics""","""Influencing User Attention Using Real-Time Stylised Rendering""",2,N. Redmond,J. Dingliana
+2009,"""Theory and Practice of Computer Graphics""","""Aesthetic-Interaction: Exploring the Importance of the Visual Aesthetic in the Creation of Engaging Photorealistic VR Environments""",1,F. Carroll
+2009,"""Theory and Practice of Computer Graphics""","""Real-time Rendering of Deformable Translucent Objects""",3,N. Benmounah,V. Jolivet,D. Ghazanfarpour
+2009,"""Theory and Practice of Computer Graphics""","""Calibrating a COTS Monitor to DICOM Standard""",2,I. J. Grimstead,N. J. Avis
+2009,"""Theory and Practice of Computer Graphics""","""Discrete Element Modelling Using a Parallelised Physics Engine""",4,S. M. Longshaw,M. J. Turner,E. Finch,R. Gawthorpe
+2009,"""Theory and Practice of Computer Graphics""","""Uncertain Flow Visualization using LIC""",2,R. S. A. Osorio,K. W. Brodlie
+2009,"""Theory and Practice of Computer Graphics""","""Coastal Shelf Visualization using VTK and OpenDX of Hydro-Informatic Numerical Models""",2,R. L. S. F. George,J. C. Roberts
+2009,"""Theory and Practice of Computer Graphics""","""Diffusion and Fractional Diffusion Based Image Processing""",1,J. M. Blackledge
+2010,"""Theory and Practice of Computer Graphics""","""Screen Space Re-Rendering for the Simulation of Concert Lighting""",2,I. Stephenson,L. Scanlan
+2010,"""Theory and Practice of Computer Graphics""","""Efficient Image Blur in Web-Based Applications""",1,M. Kraus
+2010,"""Theory and Practice of Computer Graphics""","""ID-Based Rendering of Silhouettes on GPU""",2,E. D. Diktas,A. V. Sahiner
+2010,"""Theory and Practice of Computer Graphics""","""Anisotropic Kuwahara Filtering with Polynomial Weighting Functions""",4,J. E. Kyprianidis,A. Semmo,H. Kang,J. Döllner
+2010,"""Theory and Practice of Computer Graphics""","""Rendering Large Point Datasets with GPU Shaders""",3,H. Aguirre,D. Gutierrez,J. S. Perrin
+2010,"""Theory and Practice of Computer Graphics""","""Surfel Based Geometry Reconstruction""",3,V. Andersen,H. Aanæs,J. A. Bærentzen
+2010,"""Theory and Practice of Computer Graphics""","""A Thin-plate CAD Mesh Model Splitting Approach Based on Fitting Primitives""",7,C. Geng,H. Suzuki,D. Yan,T. Michikawa,Y. Sato,M. Hashima,E. Ohta
+2010,"""Theory and Practice of Computer Graphics""","""Multiresolution Modeling Using Fractal Image Compression Techniques""",3,Ó. Belmonte,S. Sancho,J. Ribelles
+2010,"""Theory and Practice of Computer Graphics""","""An Improved Discrete Level of Detail Model Through an Incremental Representation""",3,J. Ribelles,A. López,O. Belmonte
+2010,"""Theory and Practice of Computer Graphics""","""Agent-based Large Scale Simulation of Pedestrians With Adaptive Realistic Navigation Vector Fields""",3,T. Karmakham,P. Richmond,D. M. Romano
+2010,"""Theory and Practice of Computer Graphics""","""Computer Modelling of Theatrical Sets""",2,I. Stephenson,R. Pride
+2010,"""Theory and Practice of Computer Graphics""","""Approximating Poisson Disk Distributions by Means of a Stochastic Dither Array""",2,J. R. Alford,D. G. Sheppard
+2010,"""Theory and Practice of Computer Graphics""","""Real-Time Traffic Simulation Using Cellular Automata""",3,C. S. Applegate,S. D. Laycock,A. M. Day
+2010,"""Theory and Practice of Computer Graphics""","""Using Processing to Develop iCove: a Tool for Interactive Coastal Oceanographic Visualization""",3,R. L. S. F. George,J. C. Roberts,A. G. Davies
+2010,"""Theory and Practice of Computer Graphics""","""Perception of Clones in Forest Rendering""",2,A. Purvis,V. Sundstedt
+2010,"""Theory and Practice of Computer Graphics""","""Computer Graphics Education and the understanding of pixel plotting algorithms using Growth Aggregation models""",1,J. Roberts
+2010,"""Theory and Practice of Computer Graphics""","""Virtual Femoral Palpation Simulation for Interventional Radiology Training""",4,T. R. Coles,D. A. Gould,N. W. John,D. G. Caldwell
+2010,"""Theory and Practice of Computer Graphics""","""Implicit Surface Reconstruction and Feature Detection with a Learning Algorithm""",2,D. Kaye,I. Ivrissimtzis
+2010,"""Theory and Practice of Computer Graphics""","""Pattern Recognition in Cytopathology for Papanicolaou Screening""",2,J. Blackledge,D. A. Dubovitskiy
+2010,"""Theory and Practice of Computer Graphics""","""Evaluation of A Viseme-Driven Talking Head""",3,P. Dey,S. Maddock,R. Nicolson
+2010,"""Theory and Practice of Computer Graphics""","""Craniofacial Reconstruction Based on Skull-face Models Extracted from MRI Datasets""",2,M. Salas,S. Maddock
+2010,"""Theory and Practice of Computer Graphics""","""Interval Based Data Structure Optimization""",2,B. Duffy,H. Carr
+2010,"""Theory and Practice of Computer Graphics""","""Remote Scientific Visualization for Large Datasets""",3,M. Turner,G. Leaver,J. Perrin
+2010,"""Theory and Practice of Computer Graphics""","""An Evaluation of the use of Clustering Coefficient as a Heuristic for the Visualisation of Small World Graphs""",2,F. McGee,J. Dingliana
+2010,"""Theory and Practice of Computer Graphics""","""From Tabular Data to Metaphoric Landscape Visualisation - A Template-based Approach""",3,F. Mohamed,M. Chen,P. W. Grant
+2010,"""Theory and Practice of Computer Graphics""","""Audio-Visual Animation of Urban Space""",4,P. Richmond,Y. Smyrnova,S. Maddock,J. Kang
+2010,"""Theory and Practice of Computer Graphics""","""The Effect of Discretised and Fully Converged Spatialised Sound on Directional Attention and Distraction""",5,C. Harvey,S. Walker,T. Bashford-Rogers,K. Debattista,A. Chalmers
+2010,"""Theory and Practice of Computer Graphics""","""Comparison of Different Types of Visemes using a Constraint-based Coarticulation Model""",2,O. M. M. Lazalde,S. Maddock
+2010,"""Theory and Practice of Computer Graphics""","""Using the Discrete Fourier Transform for Character Motion Blending and Manipulation - a Streamlined Approach""",3,M. R. L. Molnos,S. D. Laycock,A. M. Day
+2010,"""Theory and Practice of Computer Graphics""","""Animating Horse Gaits and Transitions""",3,J. E. Murphy,H. Carr,M. O'Neill
+2010,"""Theory and Practice of Computer Graphics""","""Sketch-Based Posing of 3D Faces for Facial Animation""",2,O. Gunnarsson,S. Maddock
+2010,"""Theory and Practice of Computer Graphics""","""A Multi-Windows Approach for Sketch-Based Conceptual Design System""",2,I. Gharib,S. Qin
+2010,"""Theory and Practice of Computer Graphics""","""Integrating Haptic Interaction Into An Existing Virtual Environment Toolkit""",2,P. Scopes,S. P. Smith
+2010,"""Theory and Practice of Computer Graphics""","""Anatomically Plausible Surface Alignment and Reconstruction""",2,R. R. Paulsen,R. Larsen
+2010,"""Theory and Practice of Computer Graphics""","""3D Modelling of Complex Biological Structures: The Oviduct""",4,M. Burkitt,D. M. Romano,D. C. Walker,A. Fazeli
+2011,"""Theory and Practice of Computer Graphics""","""Remodelling of Botanical Trees for Real-Time Simulation""",3,D. T. Reynolds,S. D. Laycock,A. M. Day
+2011,"""Theory and Practice of Computer Graphics""","""Terrain Models for Mass Movement Erosion""",2,M. Hudák,R. Durikovic
+2011,"""Theory and Practice of Computer Graphics""","""Morphological Analysis from Images of Hyphal Growth using a Fractional Dynamic Model""",2,J. M. Blackledge,D. J. Barry
+2011,"""Theory and Practice of Computer Graphics""","""Memory Efficient Surface Reconstruction Based on Self Organising Maps""",2,D. P. Kaye,I. Ivrissimtzis
+2011,"""Theory and Practice of Computer Graphics""","""Pixel-Level Algorithms for Drawing Curves""",6,Y. K. Liu,P. J. Wang,D. D. Zhao,D. Spelic,D. Mongus,B. Zalik
+2011,"""Theory and Practice of Computer Graphics""","""Building a Video Wall for Earth Observation Data""",6,V. Bennett,A. Haffegee,B. Matthews,S. Nagella,A. Shaw,J. Styles
+2011,"""Theory and Practice of Computer Graphics""","""Dynamic Video Face Transformation Using Multilinear and Autoregressive Models""",3,B. Tiddeman,D. Hunter,D. Perrett
+2011,"""Theory and Practice of Computer Graphics""","""Visualisation of Blockplay in Early Childhood""",3,A. Albin-Clark,T. L. J. Howard,B. Anderson
+2011,"""Theory and Practice of Computer Graphics""","""Airborne Ultrasound Pulse Force Device for Palpation Simulation""",2,G. M. Hung,N. W. John
+2011,"""Theory and Practice of Computer Graphics""","""Simple and Efficient Normal Encoding with Error Bounds""",3,C. Schinko,T. Ullrich,D. W. Fellner
+2011,"""Theory and Practice of Computer Graphics""","""A Low-Cost Single-Pixel Thermographic Camera""",2,F. Bauer,J. Loviscach
+2011,"""Theory and Practice of Computer Graphics""","""Interactive Computer Visualisations of Time and Place""",1,J. Fishenden
+2011,"""Theory and Practice of Computer Graphics""","""Model and Visualise the Relationship between Energy Consumption and Temperature Distribution in Cold Rooms""",5,J. Ma,D. Murphy,C. O'Mathuna,M. Hayes,G. Provan
+2011,"""Theory and Practice of Computer Graphics""","""Visual Saliency for Smell Impulses and Application to Selective Rendering""",4,C. Harvey,T. E. W. Bashford-Rogers,K. Debattista,A. Chalmers
+2011,"""Theory and Practice of Computer Graphics""","""Evaluation of a Reconfigurable Tangible Device for Collaborative Manipulation of Objects in Virtual Reality""",3,L. Aguerreche,T. Duval,A. Lécuyer
+2011,"""Theory and Practice of Computer Graphics""","""A Desktop Multi-Touch Interface for Posing Characters""",1,I. Stephenson
+2011,"""Theory and Practice of Computer Graphics""","""Advantages of 3D Extraction and Spatial Awareness within a Videoconferencing Environment""",4,M. M. Rodriguez-Frias,T. Morris,M. Turner,A. Rowley
+2011,"""Theory and Practice of Computer Graphics""","""Compositing Shaders in X3D""",1,M. Kamburelis
+2011,"""Theory and Practice of Computer Graphics""","""Enabling Visualization of Massive Datasets Through MPP Database Architecture""",4,A. Al-Naser,M. Rasheed,J. Brooke,D. Irving
+2012,"""Theory and Practice of Computer Graphics""","""Backwards Compatible JPEG Stereoscopic High Dynamic Range Imaging""",4,E. Selmanovic,K. Debattista,T. Bashford-Rogers,A. Chalmers
+2012,"""Theory and Practice of Computer Graphics""","""Physical and Perceptual Limitations of a Projector-based High Dynamic Range Display""",3,R. Wanat,J. Petit,R. Mantiuk
+2012,"""Theory and Practice of Computer Graphics""","""Light Clustering for Dynamic Image Based Lighting""",4,S. Staton,K. Debattista,T. Bashford-Rogers,A. Chalmers
+2012,"""Theory and Practice of Computer Graphics""","""Path Tracing on Massively Parallel Neuromorphic Hardware""",2,P. Richmond,D. J. Allerton
+2012,"""Theory and Practice of Computer Graphics""","""Using Quest3D to Develop VES: a Tool for Enhancing Electrical Safety and Design in the Built Environment""",2,M. Barrett,J. M. Blackledge
+2012,"""Theory and Practice of Computer Graphics""","""Simplified User Interface for Architectural Reconstruction""",3,F. Wanner,F. Pece,J. Kautz
+2012,"""Theory and Practice of Computer Graphics""","""Large Scale Pedestrian Multi-Simulation for a Decision Support Tool""",2,T. Karmakharm,P. Richmond
+2012,"""Theory and Practice of Computer Graphics""","""ViewFusion: Correlating Structure and Activity Views for Execution Traces""",3,J. Trümper,A. Telea,J. Döllner
+2012,"""Theory and Practice of Computer Graphics""","""Advanced, Automatic Stream Surface Seeding and Filtering""",5,M. Edmunds,R. S. Laramee,G. Chen,E. Zhang,N. Max
+2012,"""Theory and Practice of Computer Graphics""","""Analyzing and Visualizing Multivariate Volumetric Scalar Data and Their Uncertainties""",5,J. Ma,D. Murphy,C. O'Mathuna,M. Hayes,G. Provan
+2012,"""Theory and Practice of Computer Graphics""","""Hardware Accelerated Medical Data Visualisation on the Web""",5,H. Wei,G. J. Clapworthy,E. Liu,Y. Zhao,N. M. B. McFarlane
+2012,"""Theory and Practice of Computer Graphics""","""Visualizing a Spherical Geological Discrete Element Model of Fault Evolution""",3,S. M. Longshaw,M. J. Turner,E. Finch
+2012,"""Theory and Practice of Computer Graphics""","""Fast Scalable k-NN Computation for Very Large Point Clouds""",4,S. Spina,K. Debattista,K. Bugeja,A. Chalmers
+2012,"""Theory and Practice of Computer Graphics""","""On the Fractal Behaviour of AA Patterns""",1,A. G. M. Ahmed
+2012,"""Theory and Practice of Computer Graphics""","""Computing Curve Skeletons from Medial Surfaces of 3D Shapes""",2,A. Telea,A. C. Jalba
+2013,"""Theory and Practice of Computer Graphics""","""GPU Simulation of Finite Element Facial Soft-Tissue Models""",2,M. Warburton,S. Maddock
+2013,"""Theory and Practice of Computer Graphics""","""NetVis: a Visualization Tool Enabling Multiple Perspectives of Network Traffic Data""",8,J. Nicholls,D. Peters,A. Slawinski,T. Spoor,S. Vicol,J. Happa,M. Goldsmith,S. Creese
+2013,"""Theory and Practice of Computer Graphics""","""Geometry-based Algorithm for Detection of Asymmetric Tunnels in Protein Molecules""",3,J. Byska,A. Jurcik,J. Sochor
+2013,"""Theory and Practice of Computer Graphics""","""The Evaluation of Perceptual Effectiveness of Isosurface Rendering-based Uncertainty Visualization Techniques for Volumetric Scalar Data""",5,J. Ma,D. Murphy,G. Provan,C. O'Mathuna,M. Hayes
+2013,"""Theory and Practice of Computer Graphics""","""A Fast Inverse Kinematics Solver using Intersection of Circles""",2,S. Ramachandran,N. W. John
+2013,"""Theory and Practice of Computer Graphics""","""Accurate and Marker-less Head Tracking Using Depth Sensors""",3,M. Breidt,H. H. Bülthoff,C. Curio
+2013,"""Theory and Practice of Computer Graphics""","""A Cost Effective, Accurate Virtual Camera System for Games, Media Production and Interactive Visualisation Using Game Motion Controllers""",3,M. Bett,E. Michno,K. B. McAlpine
+2013,"""Theory and Practice of Computer Graphics""","""Multi-Perspective Detail+Overview Visualization for 3D Building Exploration""",3,S. Pasewaldt,M. Trapp,J. Döllner
+2013,"""Theory and Practice of Computer Graphics""","""StegoNPR: Information Hiding in Painterly Renderings""",2,C. Lord,J. Collomosse
+2013,"""Theory and Practice of Computer Graphics""","""Measuring Realism in Hair Rendering""",2,G. Ramesh,M. J. Turner
+2013,"""Theory and Practice of Computer Graphics""","""Acquisition, Representation and Rendering of Real-World Models using Polynomial Texture Maps in 3D""",3,E. Vassallo,S. Spina,K. Debattista
+2013,"""Theory and Practice of Computer Graphics""","""A Compact Tucker-Based Factorization Model for Heterogeneous Subsurface Scattering""",3,M. Kurt,A. Öztürk,P. Peers
+2013,"""Theory and Practice of Computer Graphics""","""Support for the Calculation of Stent Fatigue Fracture in Peripheral Arteries""",6,N. J. B. McFarlane,H. Wei,Y. Zhao,G. J. Clapworthy,D. Testi,A. Chiarini
+2013,"""Theory and Practice of Computer Graphics""","""Interactive Projective Texturing for Non-Photorealistic Shading of Technical 3D Models""",4,R. Lux,M. Trapp,A. Semmo,J. Döllner
+2013,"""Theory and Practice of Computer Graphics""","""Resolution Estimation for Shadow Mapping""",1,M. Ferko
