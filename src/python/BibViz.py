@@ -17,7 +17,7 @@ def main():
     else:
         # CSV file writer
         csv_file_name = sys.argv[len(sys.argv) - 1];
-        with open(csv_file_name, 'w') as csvfile:
+        with open(csv_file_name, 'w', encoding='utf-8') as csvfile:
             csv_writer = csv.writer(csvfile, delimiter=',', dialect='excel');
 
             # Create an empty list
@@ -27,8 +27,9 @@ def main():
             for i in range(1, len(sys.argv) - 1):
 
                 # Open the file is read it into a string
-                with open(sys.argv[i]) as bibtex_file:
-                    bibtex_str = bibtex_file.read()
+                with open(sys.argv[i], encoding='utf-8') as bibtex_file:
+                    print("Read: ", sys.argv[i]);
+                    bibtex_str = bibtex_file.read();
 
                 # Create a bibtex parser
                 parser = BibTexParser()
