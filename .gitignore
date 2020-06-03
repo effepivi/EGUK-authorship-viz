@@ -1,0 +1,11 @@
+venv
+*.pyc
+.DS_Store
+.env
+*.bib
+*.zip
+
+data/eguk_database.db
+eguk_authorship_network.json
+data/edges.csv
+data/nodes.csv
