@@ -33,7 +33,7 @@ d3.json("eguk_authorship_network.json", function(error,json)
         .data(json.links)
         .enter().append("line")
         .attr("class", "link")
-        //.style("stroke-width", function(d) { return Math.sqrt(d.weight); });
+        .style("stroke-width", function(d) { return (1.5 * d.weight); });
 
     var node = svgnode.selectAll(".node")
         .data(json.nodes)
