@@ -1,0 +1,10 @@
+bibtexparser
+community
+csv
+math
+matplotlib
+networkx
+numpy
+pandas
+sqlite3
+sys
