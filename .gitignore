@@ -5,6 +5,7 @@ venv
 *.bib
 *.zip
 
+data/
 data/eguk_database.db
 eguk_authorship_network.json
 data/edges.csv
