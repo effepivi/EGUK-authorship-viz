@@ -14,7 +14,7 @@ var force = d3.layout.force()
     .linkDistance(100)
     .size([width, height]);
 
-var svgnode = d3.select("#header1").append("svg")
+var svgnode = d3.select("#graph").append("svg")
     .attr("width", width)
     .attr("height", height);
 
