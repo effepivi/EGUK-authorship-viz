@@ -66,7 +66,7 @@ d3.json("eguk_authorship_network.json", function(error,json)
                     .on("start", dragstarted)
                     .on("drag", dragged)
                     .on("end", dragended))
-                    .on("click", nodeClicked)
+                    //.on("click", nodeClicked)
                        //
     // var labels = svg.append("g")
     //     .attr("class", "text")
@@ -119,6 +119,9 @@ d3.json("eguk_authorship_network.json", function(error,json)
     element.attr("r", d.old_r * 1.5);
     element.attr("fill","lightcoral");
     element.attr("stroke","red");
+
+    console.log("dragstarted", d);
+    nodeClicked(d);
   }
 
   function dragged(d) {
@@ -140,6 +143,10 @@ d3.json("eguk_authorship_network.json", function(error,json)
 
   function nodeClicked(d) {
       element = d3.select(this);
-      console.log(d);
+      console.log("nodeClicked", d);
+
+      var side_panel = d3.select("#side_panel")
+         side_panel.text(d.name);
+
   }
 });
