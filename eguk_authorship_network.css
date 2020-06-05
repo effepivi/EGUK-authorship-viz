@@ -15,16 +15,17 @@ html,body {
 
 .one {
   width: 70%;
+  height: 100%;
   /* background: red; */
   float: left;
   overflow:hidden;
 }
 
 .two {
-  margin-left: 15px;
+  margin-left: 1%;
   /* background: black; */
   float: right;
-  width: 29%;
+  width: 28%;
   overflow:hidden;
 }
 

@@ -4,8 +4,14 @@
 //
 // https://www.d3-graph-gallery.com/graph/interactivity_zoom.html
 
-var width = 1048;
-var height = 300;
+
+var graph_element = d3.select('#graph').node();
+
+console.log(graph_element.getBoundingClientRect().height);
+
+
+var width = Math.floor(graph_element.getBoundingClientRect().width);
+var height = 600;
 
 var color = d3.scaleOrdinal(d3.schemeCategory20);
 
