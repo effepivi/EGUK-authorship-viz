@@ -1,20 +1,31 @@
 html,body {
-	width: 80%;
-	height: 80%;
-	margin: 0px;
-	padding: 5px 5px 5px 5px;
-     padding-top: 20px;
+    width: 80%;
+    height: 80%;
+    margin: 0px;
+    padding: 5px 5px 5px 5px;
+    padding-top: 20px;
 }
-
 
 .node {
     font-family: Arial, sans-serif;
-	font-size: 10px;
-  stroke: #FFF;
-  stroke-width: 1.5px;
+    font-size: 10px;
+    stroke: #FFF;
+    stroke-width: 1.5px;
+}
+
+.nodes circle {
+    stroke: #f00;
+    stroke-width: 1.5px;
 }
 
 .link {
-  stroke: #AAA;
-  stroke-opacity: .6;
+    stroke: #AAA;
+    stroke-opacity: .6;
+}
+
+.text {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    stroke: #FFF;
+    stroke-width: 1.5px;
 }
