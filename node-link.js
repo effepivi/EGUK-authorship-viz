@@ -27,6 +27,38 @@ var svg = d3.select("#graph")
     }))
   .append("g")
 
+
+var authorship;
+var articles;
+var conferences;
+
+function recordAuthorship(json) {
+    authorship = json;
+}
+
+function recordArticles(json) {
+    articles = json;
+}
+
+function recordConferences(json) {
+    conferences = json;
+}
+
+fetch("authorship.json")
+    .then(response => response.json())
+    .then(json => recordAuthorship(json))
+
+fetch("articles.json")
+    .then(response => response.json())
+    .then(json => recordArticles(json))
+
+fetch("conferences.json")
+    .then(response => response.json())
+    .then(json => recordConferences(json))
+
+
+
+
 d3.json("eguk_authorship_network.json", function(error,json)
 {
     if (error) throw error;
@@ -53,6 +85,8 @@ d3.json("eguk_authorship_network.json", function(error,json)
         .selectAll("circle")
             .data(json.nodes)
             .enter()
+            // Trying to add text next to the nodes with offset (x,y)
+            // Failling to add the translation to both circle and text.
             // .append("text")
             // .attr("class", "text")
             // .attr('x', 6)
@@ -66,8 +100,11 @@ d3.json("eguk_authorship_network.json", function(error,json)
                     .on("start", dragstarted)
                     .on("drag", dragged)
                     .on("end", dragended))
-                    //.on("click", nodeClicked)
+                    //.on("click", nodeClicked) // Not needed as taken care by dragstarted
                        //
+
+                       // Trying to add text next to the nodes with offset (x,y)
+                       // Failling to add the translation to both circle and text.
     // var labels = svg.append("g")
     //     .attr("class", "text")
     //     .selectAll("text")
@@ -83,11 +120,11 @@ d3.json("eguk_authorship_network.json", function(error,json)
 
 
     simulation
-    .nodes(json.nodes)
-    .on("tick", ticked);
+        .nodes(json.nodes)
+        .on("tick", ticked);
 
     simulation.force("link")
-    .links(json.links);
+        .links(json.links);
 
     //svg.selectAll("node").on("click", function(id) { var _node = g.node(id); console.log("Clicked " + id,_node); });
 
@@ -105,48 +142,103 @@ d3.json("eguk_authorship_network.json", function(error,json)
           })
     }
 
-  function dragstarted(d) {
-    if (!d3.event.active) simulation.alphaTarget(0.3).restart();
-    d.fx = d.x;
-    d.fy = d.y;
+    function dragstarted(d)
+    {
+        if (!d3.event.active) simulation.alphaTarget(0.3).restart();
 
-    element = d3.select(this);
+        d.fx = d.x;
+        d.fy = d.y;
 
-    d.old_r      = element.attr("r");
-    d.old_fill   = element.attr("fill");
-    d.old_stroke = element.attr("stroke");
+        element = d3.select(this);
 
-    element.attr("r", d.old_r * 1.5);
-    element.attr("fill","lightcoral");
-    element.attr("stroke","red");
+        d.old_r      = element.attr("r");
+        d.old_fill   = element.attr("fill");
+        d.old_stroke = element.attr("stroke");
 
-    console.log("dragstarted", d);
-    nodeClicked(d);
-  }
+        element.attr("r", d.old_r * 1.5);
+        element.attr("fill","lightcoral");
+        element.attr("stroke","red");
 
-  function dragged(d) {
-    d.fx = d3.event.x;
-    d.fy = d3.event.y;
-  }
+        // console.log("dragstarted", d);
+        nodeClicked(d);
+    }
 
-  function dragended(d) {
-    if (!d3.event.active) simulation.alphaTarget(0);
-    d.fx = null;
-    d.fy = null;
+    function dragged(d)
+    {
+        d.fx = d3.event.x;
+        d.fy = d3.event.y;
+    }
 
-    element = d3.select(this);
+    function dragended(d)
+    {
+        if (!d3.event.active) simulation.alphaTarget(0);
 
-    element.attr('r',      d.old_r);
-    element.attr("fill",   d.old_fill);
-    element.attr("stroke", d.old_stroke);
-  }
+        d.fx = null;
+        d.fy = null;
 
-  function nodeClicked(d) {
-      element = d3.select(this);
-      console.log("nodeClicked", d);
+        element = d3.select(this);
 
-      var side_panel = d3.select("#side_panel")
-         side_panel.text(d.name);
+        element.attr('r',      d.old_r);
+        element.attr("fill",   d.old_fill);
+        element.attr("stroke", d.old_stroke);
+    }
 
-  }
+
+    function getArticleByAuthorID(author_id)
+    {
+        return authorship.filter(
+            function(authorship){ return authorship.author_id == author_id }
+        );
+    }
+
+    function getArticleByID(article_id)
+    {
+        return articles.filter(
+            function(articles){ return (articles.id == article_id) }
+        );
+    }
+
+    function getConferenceByID(conference_id)
+    {
+        return conferences.filter(
+            function(conferences){ return (conferences.id == conference_id) }
+        );
+    }
+
+    function nodeClicked(d)
+    {
+        var fieldNameElement = document.getElementById('side_panel');
+
+        //var side_panel = d3.select("#side_panel")
+
+        article_ids = getArticleByAuthorID(d.index + 1);
+        text = "<p>Author: " + d.name;
+        if (article_ids.length == 1)
+        {
+            text += ": " + article_ids.length + " article";
+        }
+        else
+        {
+            text += ": " + article_ids.length + " articles";
+        }
+        text += "</p><p>";
+
+        for (i = 0; i < article_ids.length; ++i)
+        {
+            article_id = article_ids[i].paper_id;
+            article = getArticleByID(article_id)[0];
+
+            conference_id = article.conference_id;
+            conference = getConferenceByID(conference_id)[0];
+
+            text += article.title + " in <i>Proceedings of " + conference.short_name + conference.year + "</br>";
+            console.log(text)
+            console.log(conference)
+        }
+        text += "</p>";
+
+        // $("side_panel").update(text);
+        fieldNameElement.innerHTML = text;
+        // side_panel.text(text);
+    }
 });
