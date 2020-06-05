@@ -14,5 +14,7 @@ rm -f $DB_OUTPUT
 src/python/csv2SQLlight.py $CSV_OUTPUT $DB_OUTPUT
 # sqlite3 $DB_OUTPUT
 
-rm -f $NODES_CSV $EDGES_CSV
+rm -f $GRAPH_JSON articles.json conferences.json authorship.json
 src/python/db2json.py $DB_OUTPUT > $GRAPH_JSON
+
+python3 -m http.server
