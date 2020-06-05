@@ -4,9 +4,6 @@ venv
 .env
 *.bib
 *.zip
+*.json
 
 data/
-data/eguk_database.db
-eguk_authorship_network.json
-data/edges.csv
-data/nodes.csv
