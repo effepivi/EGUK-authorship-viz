@@ -214,16 +214,30 @@ def main():
 
 
             # draw the graph
-            pos = nx.spring_layout(G)
-            # color the nodes according to their partition
-            cmap = cm.get_cmap('viridis', max(partition.values()) + 1)
-            nx.draw_networkx_nodes(G, pos, partition.keys(), node_size=40,
-                                   cmap=cmap, node_color=list(partition.values()))
-            # nx.draw_networkx_edges(G, pos, alpha=0.5)
-            plt.show()
+            # pos = nx.spring_layout(G)
+            # # color the nodes according to their partition
+            # cmap = cm.get_cmap('viridis', max(partition.values()) + 1)
+            # nx.draw_networkx_nodes(G, pos, partition.keys(), node_size=40,
+            #                        cmap=cmap, node_color=list(partition.values()))
+            # # nx.draw_networkx_edges(G, pos, alpha=0.5)
+            # plt.show()
 
             # print(nx.info(G)) # Print information about the Graph
 
+            df = pd.read_sql_query("SELECT * from articles", conn);
+            df.to_json("articles.json", orient="records");
+
+            df = pd.read_sql_query("SELECT * from conferences", conn)
+            df.to_json("conferences.json", orient="records")
+
+            df = pd.read_sql_query("SELECT * from authorship", conn)
+            df.to_json("authorship.json", orient="records")
+
+            # Verify that result of SQL query is stored in the dataframe
+            #print(df.head())
+
+
+            conn.close()
         else:
             print("Error! cannot create the database connection.")
 
