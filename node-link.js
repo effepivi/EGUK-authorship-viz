@@ -4,8 +4,8 @@
 //
 // https://www.d3-graph-gallery.com/graph/interactivity_zoom.html
 
-var width = 2048;
-var height = 600;
+var width = 1048;
+var height = 300;
 
 var color = d3.scaleOrdinal(d3.schemeCategory20);
 
@@ -221,7 +221,7 @@ d3.json("eguk_authorship_network.json", function(error,json)
         {
             text += ": " + article_ids.length + " articles";
         }
-        text += "</p><p>";
+        text += "</p><p><ul>";
 
         for (i = 0; i < article_ids.length; ++i)
         {
@@ -231,11 +231,11 @@ d3.json("eguk_authorship_network.json", function(error,json)
             conference_id = article.conference_id;
             conference = getConferenceByID(conference_id)[0];
 
-            text += article.title + " in <i>Proceedings of " + conference.short_name + conference.year + "</br>";
+            text += "<li>" + article.title + " in <i>Proceedings of " + conference.short_name + conference.year + "</li>";
             console.log(text)
             console.log(conference)
         }
-        text += "</p>";
+        text += "</ul></p>";
 
         // $("side_panel").update(text);
         fieldNameElement.innerHTML = text;
