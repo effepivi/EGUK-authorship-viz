@@ -108,19 +108,21 @@ d3.json("eguk_authorship_network.json", function(error,json)
 
                        // Trying to add text next to the nodes with offset (x,y)
                        // Failling to add the translation to both circle and text.
-    // var labels = svg.append("g")
-    //     .attr("class", "text")
-    //     .selectAll("text")
-    //         .data(json.nodes)
-    //         .enter()
-    //             .append("text")
-    //             .attr('x', 6)
-    //             .attr('y', 3)
-    //             // .attr("dx", 12)
-    //             // .attr("dy", ".35em")
-    //             // .attr("stroke", "black")
-    //             .text(function(d) { return d.name });
 
+
+   var text = svg.append("g")
+       .attr("class", "text")
+       .selectAll("text")
+           .data(json.nodes)
+           .enter()
+               .append("text")
+               .attr("class", "text")
+               .text(function(d) { return d.name })
+               .attr('x', 6)
+               .attr('y', 3)
+               // .attr("dx", 12)
+               // .attr("dy", ".35em")
+               // .attr("stroke", "black");
 
     simulation
         .nodes(json.nodes)
@@ -138,6 +140,11 @@ d3.json("eguk_authorship_network.json", function(error,json)
           .attr("y2", function(d) { return d.target.y; });
 
       node
+          .attr("transform", function(d) {
+            return "translate(" + d.x + "," + d.y + ")";
+          })
+
+      text
           .attr("transform", function(d) {
             return "translate(" + d.x + "," + d.y + ")";
           })

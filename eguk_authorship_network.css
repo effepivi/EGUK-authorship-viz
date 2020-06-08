@@ -48,7 +48,7 @@ html,body {
 
 .text {
     font-family: Arial, sans-serif;
-    font-size: 10px;
-    stroke: #FFF;
+    font-size: 7px;
+    stroke: #555;
     stroke-width: 1.5px;
 }
