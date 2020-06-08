@@ -62,6 +62,8 @@ def main():
             header_row.append("\"Year\"");
             header_row.append("\"Booktitle\"");
             header_row.append("\"Title\"");
+            header_row.append("\"DOI\"");
+            header_row.append("\"pages\"");
             header_row.append("\"Number of authours\"");
             for i in range(1, max_number_of_authors + 1):
                 header_row.append("\"author #" + str(i) + "\"");
@@ -101,6 +103,15 @@ def main():
                     # Get the authors
                     authors = bib_database_set[j].entries_dict[entry_key]['author'];
 
+                    # Get the pages
+                    if "pages" in bib_database_set[j].entries_dict[entry_key]:
+                        pages = bib_database_set[j].entries_dict[entry_key]['pages'];
+                    else:
+                        pages = "";
+
+                    # Get the doi
+                    doi = bib_database_set[j].entries_dict[entry_key]['doi'];
+
                     # Get the number of authors
                     number_of_authors = authors.count(' and ') + 1;
 
@@ -108,6 +119,8 @@ def main():
                     row.append(year);
                     row.append("\"" + booktitle + "\"");
                     row.append("\"" + title + "\"");
+                    row.append("\"" + doi + "\"");
+                    row.append("\"" + pages + "\"");
                     row.append(number_of_authors);
 
                     # Find all the authors

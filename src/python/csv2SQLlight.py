@@ -26,6 +26,9 @@ SQL_CREATE_ARTICLES_TABLE = """ CREATE TABLE IF NOT EXISTS articles (
                                     bibtex_id text,
                                     conference_id integer NOT NULL,
                                     title text NOT NULL,
+                                    doi,
+                                    first_page integer,
+                                    last_page integer,
                                     FOREIGN KEY (conference_id) REFERENCES conferences (id)
                                 ); """
 
@@ -111,12 +114,26 @@ def create_article(conn, article):
     bibtex_id = "";
     year = article['"Year"'];
     title = article['"Title"'];
+    doi = article['"DOI"'];
+    pages = article['"pages"'];
+
+    if pages == '""':
+        first_page = -1;
+        last_page = -1;
+    else:
+        temp = pages.replace('"', '').split("-");
+        first_page = int(temp[0]);
+        last_page = int(temp[1]);
+
+    first_page = first_page;
+    last_page = last_page;
+
     conference_id = get_conference_id(conn, year);
 
-    record = (bibtex_id, conference_id, title);
+    record = (bibtex_id, conference_id, title,doi,first_page,last_page);
 
-    sql = ''' INSERT INTO articles(bibtex_id,conference_id,title)
-              VALUES(?,?,?) '''
+    sql = ''' INSERT INTO articles(bibtex_id,conference_id,title,doi,first_page,last_page)
+              VALUES(?,?,?,?,?,?) '''
     cur = conn.cursor()
     cur.execute(sql, record);
 
