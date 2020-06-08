@@ -205,6 +205,22 @@ d3.json("eguk_authorship_network.json", function(error,json)
         );
     }
 
+    function getAuthorNameByID(author_id)
+    {
+        return json.nodes[author_id-1].name;
+    }
+
+    function getCoAuthorByPaperID(article_id)
+    {
+        return authorship.filter(
+            function(authorship){ return authorship.paper_id == article_id }
+        );
+    }
+
+    function replaceAll(string, search, replace) {
+      return string.split(search).join(replace);
+    }
+
     function nodeClicked(d)
     {
         var fieldNameElement = document.getElementById('side_panel');
@@ -223,15 +239,111 @@ d3.json("eguk_authorship_network.json", function(error,json)
         }
         text += "</p><p><ul>";
 
+        var coauthor_dict = {};
+
         for (i = 0; i < article_ids.length; ++i)
         {
+            text += "<li>";
+
             article_id = article_ids[i].paper_id;
+            co_authors = getCoAuthorByPaperID(article_id);
+
+            for (j = 0; j < co_authors.length; ++j)
+            {
+                if (j == co_authors.length - 1)
+                {
+                    if (co_authors.length == 2)
+                    {
+                        text += " and ";
+                    }
+                    else if (co_authors.length > 2)
+                    {
+                        text += ", and ";
+                    }
+                }
+                else if (j > 0)
+                {
+                    text += ", ";
+                }
+
+                coauthor = getAuthorNameByID(co_authors[j].author_id);
+                if (d.index + 1 == co_authors[j].author_id)
+                {
+                    text += "<b>";
+                }
+                else {
+                    if (coauthor in coauthor_dict)
+                    {
+                        coauthor_dict[coauthor] += 1;
+                    }
+                    else
+                    {
+                        coauthor_dict[coauthor] = 1;
+                    }
+                }
+                text += coauthor;
+                if (d.index + 1 == co_authors[j].author_id)
+                {
+                    text += "</b>";
+                }
+            }
+
             article = getArticleByID(article_id)[0];
+            text += ", " + article.title;
 
             conference_id = article.conference_id;
             conference = getConferenceByID(conference_id)[0];
 
-            text += "<li>" + article.title + " in <i>Proceedings of " + conference.short_name + conference.year + "</li>";
+            text += " in <i>Proc. " + conference.short_name + "</i>, " + conference.year;
+
+            if (article.first_page > 0 && article.last_page)
+            {
+                text += ", ";
+
+                if (article.first_page == article.last_page)
+                {
+                    text += " page " + article.first_page.toString() + "-" + article.last_page.toString();
+                }
+                else
+                {
+                    text += " pp. " + article.first_page.toString() + "-" + article.last_page.toString();
+                }
+            }
+
+            if (article.doi != '""')
+            {
+                doi = replaceAll(article.doi, '"', '');
+                text += ", doi: <a href=\"http://doi.org/" + doi + "\">" +  doi + "</a>";
+            }
+            text += "</li>";
+        }
+        text += "</ul></p>";
+
+        text += "<p>";
+
+        number_of_coauthors = Object.keys(coauthor_dict).length;
+        text += number_of_coauthors.toString();
+        if (number_of_coauthors > 1)
+        {
+            text += " co-authors:"
+        }
+        else {
+            text += " co-author:"
+        }
+        text += "<ul>";
+
+        for(var key in coauthor_dict) {
+          var value = coauthor_dict[key];
+
+          // do something with "key" and "value" variables
+          text += "<li>" + key + ": " + value.toString() + " paper"
+
+          if (value > 1)
+          {
+              text += "s";
+          }
+
+          " in common</li>";
         }
         text += "</ul></p>";
 
