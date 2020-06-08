@@ -7,9 +7,6 @@
 
 var graph_element = d3.select('#graph').node();
 
-console.log(graph_element.getBoundingClientRect().height);
-
-
 var width = Math.floor(graph_element.getBoundingClientRect().width);
 var height = 600;
 
@@ -132,8 +129,6 @@ d3.json("eguk_authorship_network.json", function(error,json)
     simulation.force("link")
         .links(json.links);
 
-    //svg.selectAll("node").on("click", function(id) { var _node = g.node(id); console.log("Clicked " + id,_node); });
-
 
     function ticked() {
       link
@@ -165,7 +160,6 @@ d3.json("eguk_authorship_network.json", function(error,json)
         element.attr("fill","lightcoral");
         element.attr("stroke","red");
 
-        // console.log("dragstarted", d);
         nodeClicked(d);
     }
 
@@ -238,8 +232,6 @@ d3.json("eguk_authorship_network.json", function(error,json)
             conference = getConferenceByID(conference_id)[0];
 
             text += "<li>" + article.title + " in <i>Proceedings of " + conference.short_name + conference.year + "</li>";
-            console.log(text)
-            console.log(conference)
         }
         text += "</ul></p>";
 
