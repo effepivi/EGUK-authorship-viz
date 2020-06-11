@@ -1,9 +1,11 @@
-html,body {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 5px 5px 5px 5px;
-    padding-top: 20px;
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 5px 5px 5px 5px;
+  padding-top: 20px;
+  font-family: "Lato", sans-serif;
 }
 
 .container {
@@ -18,37 +20,43 @@ html,body {
   height: 100%;
   /* background: red; */
   float: left;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .two {
   margin-left: 1%;
-  /* background: black; */
   float: right;
   width: 28%;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .node {
-    font-family: Arial, sans-serif;
-    font-size: 10px;
-    stroke: #FFF;
-    stroke-width: 1.5px;
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  stroke: #fff;
+  stroke-width: 1.5px;
 }
 
 .nodes circle {
-    stroke: #f00;
-    stroke-width: 1.5px;
+  stroke: #f00;
+  stroke-width: 1.5px;
 }
 
 .link {
-    stroke: #AAA;
-    stroke-opacity: .6;
+  stroke: #aaa;
+  stroke-opacity: 0.6;
 }
 
 .text {
-    font-family: Arial, sans-serif;
-    font-size: 7px;
-    stroke: #555;
-    stroke-width: 1.5px;
+  font-family: Arial, sans-serif;
+  font-size: 7px;
+  stroke: #555;
+  stroke-width: 1px;
+}
+
+.nodeText {
+  font-family: Arial, sans-serif;
+  font-size: 7px;
+  stroke: #555;
+  stroke-width: 0.5px;
 }
