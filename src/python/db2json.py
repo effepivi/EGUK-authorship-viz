@@ -10,10 +10,13 @@ from sqlite3 import Error
 
 import networkx as nx
 # from networkx.algorithms import community
-import community
+# import community
+from community import community_louvain
 
 import matplotlib.cm as cm
 import matplotlib.pyplot as plt
+
+NoneType = type(None)
 
 def create_connection(db_file):
     """ create a database connection to the SQLite database
@@ -120,7 +123,7 @@ def main():
 
     global id_of_first_author_column;
 
-    if len(sys.argv) is not 2:
+    if len(sys.argv) != 2:
         print("Usage: ", sys.argv[0], " input.db");
     else:
         db_file_name  = sys.argv[1];
@@ -129,8 +132,7 @@ def main():
         conn = create_connection(db_file_name);
 
         # Create the tables
-        if conn is not None:
-
+        if not isinstance(conn, NoneType):
 
             # Get the authors
             authors = get_authors(conn);
@@ -174,7 +176,7 @@ def main():
             G = nx.Graph() # Initialize a Graph object
             G.add_nodes_from(nodes) # Add nodes to the Graph
             G.add_edges_from(edges) # Add edges to the Graph
-            partition = community.best_partition(G);
+            partition = community_louvain.best_partition(G)
 
             groups = [];
             for k, v in partition.items():

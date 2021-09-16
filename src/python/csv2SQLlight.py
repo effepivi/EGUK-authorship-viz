@@ -7,6 +7,8 @@ import pandas as pd
 import sqlite3
 from sqlite3 import Error
 
+NoneType = type(None)
+
 SQL_CREATE_CONFERENCES_TABLE = """ CREATE TABLE IF NOT EXISTS conferences (
                                     id integer PRIMARY KEY,
                                     year integer NOT NULL,
@@ -228,7 +230,7 @@ def main():
 
     global id_of_first_author_column;
 
-    if len(sys.argv) is not 3:
+    if len(sys.argv) != 3:
         print("Usage: ", sys.argv[0], " input.csv output.db");
     else:
         csv_file_name = sys.argv[1];
@@ -238,7 +240,7 @@ def main():
         conn = create_connection(db_file_name);
 
         # Create the tables
-        if conn is not None:
+        if not isinstance(conn, NoneType):
 
             # Create conferences table
             create_table(conn, SQL_CREATE_CONFERENCES_TABLE);
